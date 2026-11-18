@@ -36,9 +36,9 @@ window.SMB_DATA = {
   ],
 
   // Leaderboard — sourced from docs/leaderboard/paper_summary_repaired.csv (values ×100).
-  // kind: "base" = direct LLM generation; "agent" = wrapped in an agentic framework (e.g. Specula).
+  // kind: "base" = direct LLM generation; "agent" = wrapped in an agentic framework (e.g. Specular).
   models: [
-    { id: "specula-claude-opus-47", name: "Specula", subname: "Claude Opus 4.7 · Claude Code", org: "Specula", logo: null, kind: "agent", ctx: "TODO", score: 100,
+    { id: "specula-claude-opus-47", name: "Specular", subname: "Claude Opus 4.7 · Claude Code", org: "Specular", logo: null, kind: "agent", ctx: "TODO", score: 100,
       perMetric: { syntax: 100, runtime: 100, conformance: 100, invariant: 100 },
       perTask: { spin: 100, mutex: 100, rwmutex: 100, ringbuf: 100, locksvc: 100, xline: 100, raftkvs: 100, redis: 100, zk: 100, etcd: 100, dqueue: 100 } },
     { id: "gemini-31-pro",   name: "Gemini 3.1 Pro",    org: "Google",    logo: "assets/logos/gemini-color.svg",   kind: "base", ctx: "TODO", score: 86.6,

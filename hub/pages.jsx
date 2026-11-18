@@ -80,7 +80,7 @@ function PageHome({ go }) {
             <div style={{ display: "flex", gap: 10, justifyContent: "center", marginTop: 28, flexWrap: "wrap" }}>
               <a className="btn accent" href="https://arxiv.org/pdf/2509.23130" target="_blank">Read the Paper</a>
               <button className="btn primary" onClick={() => go("leaderboard")}>View Leaderboard</button>
-              <a className="btn ghost" href="https://github.com/specula-org/SysMoBench" target="_blank">GitHub</a>
+              <a className="btn ghost" href="https://github.com/specular-org/SysMoBench" target="_blank">GitHub</a>
             </div>
             <div className="stats">
               <div><span className="big"><CountUp to={SMB_DATA.tasks.length} /></span>system artifacts</div>
@@ -297,13 +297,13 @@ function PageCite() {
           <h2 style={{ fontSize: 28 }}>Contribute</h2>
           <p style={{ fontFamily: "var(--serif)", fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)" }}>
             Want to see more models on the leaderboard? Email <a className="link" href="mailto:cq@smail.nju.edu.cn">cq@smail.nju.edu.cn</a> or open a pull request on our GitHub repository.
-            For instructions on how to add a model, please see the <a className="link" href="https://github.com/specula-org/SysMoBench/blob/main/docs/Usage.md" target="_blank">documentation</a>.
+            For instructions on how to add a model, please see the <a className="link" href="https://github.com/specular-org/SysMoBench/blob/main/docs/Usage.md" target="_blank">documentation</a>.
           </p>
           <p style={{ fontFamily: "var(--serif)", fontSize: 17, lineHeight: 1.7, color: "var(--ink-2)", marginTop: 12 }}>
             We also welcome other contributions — new system artifacts, evaluation metrics, documentation improvements, or bug reports. Feel free to open an issue or reach out to discuss your ideas.
           </p>
           <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
-            <a className="btn primary" href="https://github.com/specula-org/SysMoBench" target="_blank">Open a PR</a>
+            <a className="btn primary" href="https://github.com/specular-org/SysMoBench" target="_blank">Open a PR</a>
             <a className="btn ghost" href="mailto:cq@smail.nju.edu.cn">Email us</a>
           </div>
         </FadeIn>
